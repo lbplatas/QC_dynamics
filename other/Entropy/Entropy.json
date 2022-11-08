@@ -8,35 +8,39 @@
     "Asunto_DataCard1": 8,
     "Categoría_DataCard1": 21,
     "Component1": 3,
-    "DataCardKey1": 9,
-    "DataCardKey2": 14,
+    "DataCardKey1": 10,
+    "DataCardKey2": 15,
     "DataCardKey3": 19,
-    "DataCardKey4": 22,
-    "DataCardValue1": 10,
-    "DataCardValue2": 15,
+    "DataCardKey4": 23,
+    "DataCardValue1": 11,
+    "DataCardValue2": 16,
     "DataCardValue3": 20,
-    "DataCardValue4": 23,
-    "ErrorMessage1": 11,
-    "ErrorMessage2": 16,
-    "ErrorMessage3": 24,
+    "DataCardValue4": 24,
+    "ErrorMessage1": 12,
+    "ErrorMessage2": 17,
+    "ErrorMessage3": 25,
     "Estado de la actividad_DataCard1": 13,
     "Fecha de creación_DataCard1": 18,
     "Form1": 7,
     "Label1": 4,
     "Screen1": 6,
-    "StarVisible1": 12,
-    "StarVisible2": 17,
-    "StarVisible3": 25,
+    "StarVisible1": 9,
+    "StarVisible2": 14,
+    "StarVisible3": 22,
     "TextInput1": 5
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "11/08/2022 14:29:34",
+  "HeaderLastSavedDateTimeUTC": "11/08/2022 14:44:43",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
-  "LocalResourceFileNames": {},
-  "LocalResourceRootPaths": {},
+  "LocalResourceFileNames": {
+    "descarga": "f158d6f7-ff0c-46bf-9f79-9be63ab18366.jpg"
+  },
+  "LocalResourceRootPaths": {
+    "descarga": "https://docserverpwaprodsuk.blob.core.windows.net/575f465d-b4ed-46d9-8f8b-ea48e17bb0d8-1/resource/43b51034-02f1-4353-9fbc-03ad34c6a76b.jpg?sv=2017-04-17&sr=b&sig=h830QYa8xiqpY0lwVmXG9BZRYf%2BIuw6GsKc9UaDkEHg%3D&spr=https&se=2022-11-09T14%3A59%3A37Z&sp=r"
+  },
   "OrderComponentMetadata": {
     "ea8c4f620d6c429387b7880a40e0f467": 0
   },
@@ -103,11 +107,13 @@
     "StarVisible3": 15,
     "TextInput1": 20
   },
-  "ResourcesJsonIndices": {},
+  "ResourcesJsonIndices": {
+    "Image-descarga": 0
+  },
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.2702701,
+    "AnalysisLoadTime": 0.2529184,
     "ControlCount": {
       "combobox": 1,
       "ea8c4f620d6c429387b7880a40e0f467": 1,
@@ -117,7 +123,7 @@
       "text": 3,
       "typedDataCard": 4
     },
-    "DeserializationLoadTime": 1.8941192,
+    "DeserializationLoadTime": 1.8051777,
     "ErrorCount": 0
   },
   "WasLocalDatabaseReferencesEmpty": true
