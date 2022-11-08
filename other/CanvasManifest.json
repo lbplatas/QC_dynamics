@@ -94,6 +94,7 @@
     "FileID": "ef2f4232-9d0c-4022-b12a-f50f231d9760",
     "Id": "ef2f4232-9d0c-4022-b12a-f50f231d9760",
     "InstrumentationKey": "",
+    "LocalDatabaseReferences": "{}",
     "Name": "QC_canvas",
     "OriginatingVersion": "1.326"
   },
