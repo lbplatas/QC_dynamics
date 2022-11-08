@@ -8,11 +8,12 @@
     "Component1": 5,
     "Form1": 4,
     "Label1": 6,
-    "Screen1": 3
+    "Screen1": 3,
+    "TextInput1": 7
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "11/08/2022 11:47:51",
+  "HeaderLastSavedDateTimeUTC": "11/08/2022 11:54:34",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -53,14 +54,16 @@
   "OrderTemplate": {},
   "OrderXMLTemplate": {
     "form": 0,
-    "label": 1
+    "label": 1,
+    "text": 2
   },
   "PublishOrderIndices": {
     "App": 0,
     "Component1": 0,
     "Form1": 0,
     "Label1": 0,
-    "Screen1": 0
+    "Screen1": 0,
+    "TextInput1": 0
   },
   "ResourcesJsonIndices": {},
   "RuleScreenIdWithoutScreen": {},

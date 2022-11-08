@@ -7,8 +7,14 @@ Component1 As CanvasComponent:
     ZIndex: =1
 
     Label1 As label:
-        Text: ="Texto"
+        Text: ="Your name"
         X: =40
         Y: =40
         ZIndex: =1
+
+    TextInput1 As text:
+        Default: ="Entrada de texto"
+        X: =40
+        Y: =80
+        ZIndex: =2
 
