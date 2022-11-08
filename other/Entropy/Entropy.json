@@ -7,11 +7,12 @@
     "App": 1,
     "Component1": 5,
     "Form1": 4,
+    "Label1": 6,
     "Screen1": 3
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "11/08/2022 11:41:01",
+  "HeaderLastSavedDateTimeUTC": "11/08/2022 11:43:03",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -51,12 +52,14 @@
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
   "OrderXMLTemplate": {
-    "form": 0
+    "form": 0,
+    "label": 1
   },
   "PublishOrderIndices": {
     "App": 0,
     "Component1": 0,
     "Form1": 0,
+    "Label1": 0,
     "Screen1": 0
   },
   "ResourcesJsonIndices": {},
