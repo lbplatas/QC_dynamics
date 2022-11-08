@@ -7,7 +7,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "11/08/2022 11:09:00",
+  "HeaderLastSavedDateTimeUTC": "11/08/2022 11:20:37",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -15,7 +15,30 @@
   "LocalResourceRootPaths": {},
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
-  "OrderDataSource": {},
+  "OrderDataSource": {
+    "Actividades": 20,
+    "Actividades\\activitypointer_activitytypecode": 5,
+    "Actividades\\activitypointer_deliveryprioritycode": 8,
+    "Actividades\\activitypointer_instancetypecode": 6,
+    "Actividades\\activitypointer_isbilled": 0,
+    "Actividades\\activitypointer_ismapiprivate": 3,
+    "Actividades\\activitypointer_isregularactivity": 2,
+    "Actividades\\activitypointer_isworkflowcreated": 1,
+    "Actividades\\activitypointer_leftvoicemail": 4,
+    "Actividades\\activitypointer_prioritycode": 7,
+    "Actividades\\activitypointer_statecode": 10,
+    "Actividades\\activitypointer_statuscode": 11,
+    "Actividades\\default.cds_activitypointer_views": 18,
+    "Actividades\\socialprofile_community": 9,
+    "Cartas": 21,
+    "Cartas\\default.cds_letter_views": 19,
+    "Cartas\\letter_directioncode": 14,
+    "Cartas\\letter_isbilled": 12,
+    "Cartas\\letter_isworkflowcreated": 13,
+    "Cartas\\letter_prioritycode": 15,
+    "Cartas\\letter_statecode": 16,
+    "Cartas\\letter_statuscode": 17
+  },
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
@@ -32,5 +55,5 @@
     "ControlCount": {},
     "ErrorCount": 0
   },
-  "WasLocalDatabaseReferencesEmpty": true
+  "WasLocalDatabaseReferencesEmpty": false
 }

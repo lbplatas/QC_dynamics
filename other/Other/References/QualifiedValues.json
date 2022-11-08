@@ -1,0 +1,19 @@
+{
+  "QualifiedValues": [
+    {
+      "Kind": "default.cds_activitypointer_forms",
+      "Namespace": "Actividades (Formularios)",
+      "Values": {
+        "Panel de actividades": "a4640db1-4962-4e79-92c6-690e627924d7"
+      }
+    },
+    {
+      "Kind": "default.cds_letter_forms",
+      "Namespace": "Cartas (Formularios)",
+      "Values": {
+        "Carta": "d6784cb8-bc33-4fcc-a9a9-3dc5b46ea9c6",
+        "Información": "6968c88d-67a6-4aa9-a4c3-ebcdbd2b830c"
+      }
+    }
+  ]
+}

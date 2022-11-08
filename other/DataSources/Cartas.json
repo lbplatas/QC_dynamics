@@ -1,0 +1,217 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "letters",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "letter",
+    "Name": "Cartas",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Propietario",
+      "_regardingobjectid_value": "Referente a",
+      "{Attachments}": "Attachments",
+      "activityid": "Carta",
+      "activitytypecode": "Tipo de actividad",
+      "actualdurationminutes": "Duración",
+      "actualend": "Fin real",
+      "actualstart": "Comienzo real",
+      "address": "Dirección (address)",
+      "category": "Categoría",
+      "createdby_letter": "Autor",
+      "createdon": "Fecha de creación",
+      "createdonbehalfby_letter": "Autor (delegado)",
+      "description": "Descripción",
+      "directioncode": "Dirección (directioncode)",
+      "exchangerate": "Tipo de cambio",
+      "importsequencenumber": "Número de secuencia de importación",
+      "isbilled": "Está facturado",
+      "isregularactivity": "Es una actividad regular",
+      "isworkflowcreated": "Está creado por flujo de trabajo",
+      "lastonholdtime": "Último período de retención",
+      "letter_actioncard": "Tarjetas de acción",
+      "Letter_Annotation": "Notas",
+      "Letter_AsyncOperations": "Trabajos del sistema",
+      "Letter_BulkDeleteFailures": "Errores de eliminación en masa",
+      "letter_campaignresponse": "Respuesta de campaña",
+      "letter_connections1": "Conexiones (letter_connections1)",
+      "letter_connections2": "Conexiones (letter_connections2)",
+      "Letter_DuplicateBaseRecord": "Registros duplicados (Letter_DuplicateBaseRecord)",
+      "Letter_DuplicateMatchingRecord": "Registros duplicados (Letter_DuplicateMatchingRecord)",
+      "letter_principalobjectattributeaccess": "Uso compartido de campos",
+      "Letter_ProcessSessions": "Sesiones de proceso",
+      "Letter_QueueItem": "Elementos de cola",
+      "Letter_SyncErrors": "Errores de sincronización",
+      "modifiedby_letter": "Modificado por",
+      "modifiedon": "Fecha de modificación",
+      "modifiedonbehalfby_letter": "Modificado por (delegado)",
+      "onholdtime": "Período de retención (minutos)",
+      "overriddencreatedon": "Fecha de creación del registro",
+      "owningbusinessunit_letter": "Unidad de negocio propietaria",
+      "owningteam_letter": "Equipo propietario",
+      "owninguser_letter": "Usuario propietario",
+      "prioritycode": "Prioridad",
+      "processid": "Proceso",
+      "scheduleddurationminutes": "Duración programada",
+      "scheduledend": "Fecha de vencimiento",
+      "scheduledstart": "Fecha de inicio",
+      "serviceid_letter": "Servicio",
+      "sla_letter_sla": "SLA",
+      "slainvokedid_letter_sla": "Último SLA aplicado",
+      "slakpiinstance_letter": "Instancias de KPI de SLA",
+      "sortdate": "Fecha de ordenación",
+      "stageid": "(Obsoleto) Fase de proceso",
+      "statecode": "Estado de la actividad",
+      "statuscode": "Razón para el estado",
+      "subcategory": "Subcategoría",
+      "subject": "Asunto",
+      "timezoneruleversionnumber": "Número de versión de regla de zona horaria",
+      "transactioncurrencyid_letter": "Divisa",
+      "traversedpath": "(Obsoleto) Ruta recorrida",
+      "utcconversiontimezonecode": "Código de zona horaria de conversión UTC",
+      "versionnumber": "Número de versión"
+    },
+    "PreferredName": "Cartas",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Cartas (Vistas)",
+    "Name": "_letter_views",
+    "RelatedEntityName": "Cartas",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "1a3c827e-7d5e-ed11-9561-6045bdcfd84c": "QC_view",
+      "54a5284e-428e-479b-aeab-3de6c677fae8": "Vista de búsqueda de cartas",
+      "934d2bf3-2dfe-444c-bd90-601bf0808513": "Vista de búsqueda avanzada de cartas",
+      "bf36046a-d017-4a5f-927d-086522ec08ed": "Todas las cartas",
+      "e6be0f51-5892-4a70-86d1-4611fc5b2b5e": "Vista asociada a la carta",
+      "ed36abd8-7f54-4077-8b46-d6f9bf8e71df": "Mis cartas"
+    }
+  },
+  {
+    "DisplayName": "Dirección (Cartas)",
+    "Name": "letter_directioncode",
+    "OptionSetInfoNameMapping": {
+      "0": "Entrante",
+      "1": "Saliente"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "directioncode",
+        "OptionSetReferenceEntityName": "Cartas"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "directioncode",
+    "RelatedEntityName": "Cartas",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Está facturado (Cartas)",
+    "Name": "letter_isbilled",
+    "OptionSetInfoNameMapping": {
+      "0": "No",
+      "1": "Sí"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "isbilled",
+        "OptionSetReferenceEntityName": "Cartas"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "isbilled",
+    "RelatedEntityName": "Cartas",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Está creado por flujo de trabajo (Cartas)",
+    "Name": "letter_isworkflowcreated",
+    "OptionSetInfoNameMapping": {
+      "0": "No",
+      "1": "Sí"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "isworkflowcreated",
+        "OptionSetReferenceEntityName": "Cartas"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "isworkflowcreated",
+    "RelatedEntityName": "Cartas",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Prioridad (Cartas)",
+    "Name": "letter_prioritycode",
+    "OptionSetInfoNameMapping": {
+      "0": "Baja",
+      "1": "Normal",
+      "2": "Alta"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "prioritycode",
+        "OptionSetReferenceEntityName": "Cartas"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "prioritycode",
+    "RelatedEntityName": "Cartas",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Estado de la actividad (Cartas)",
+    "Name": "letter_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Abierto",
+      "1": "Completado",
+      "2": "Cancelado"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Cartas"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Cartas",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Razón para el estado (Cartas)",
+    "Name": "letter_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Abierto",
+      "2": "Borrador",
+      "3": "Recibido",
+      "4": "Enviado",
+      "5": "Cancelado"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Cartas"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Cartas",
+    "Type": "OptionSetInfo"
+  }
+]
