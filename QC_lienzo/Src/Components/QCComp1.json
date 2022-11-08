@@ -1,10 +1,13 @@
 {
   "ComponentAllowCustomization": true,
   "ComponentChangedSinceFileImport": true,
+  "ComponentExtraMetadata": {
+    "ComponentDescription": "qc_desc"
+  },
   "ComponentManifest": {
     "AllowAccessToGlobals": false,
     "AllowCustomization": true,
-    "Description": "",
+    "Description": "qc_desc",
     "Name": "QCComp1",
     "TemplateGuid": "58016bab039f4a87a52f8eefe53a7043"
   },
